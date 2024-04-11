@@ -11,9 +11,9 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'Skynet Guest'
-password = 'S@6311507'
-mqtt_server = '192.168.86.227'
+ssid = <network_SSID>
+password = <network_password>
+mqtt_server = <serverIP>
 
 client_id = ubinascii.hexlify(machine.unique_id())
 topic_sub = b'notification'
